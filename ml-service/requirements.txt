@@ -5,9 +5,7 @@ pydantic==2.4.2
 httpx==0.25.1
 python-dotenv==1.0.0
 
-# Computer Vision
-torch==2.1.0
-torchvision==0.16.0
+# Computer Vision (DO NOT INSTALL TORCH IN COLAB)
 opencv-python-headless==4.8.1.78
 Pillow==10.0.1
 timm==0.9.7
@@ -18,17 +16,17 @@ soundfile==0.12.1
 pydub==0.25.1
 
 # Speech-to-Text
-openai-whisper==20231117
+openai-whisper
 
 # NLP
-transformers==4.35.0
-sentencepiece==0.1.99
+transformers
+sentencepiece
 
 # Scene detection
 scenedetect[opencv]==0.6.2
 
 # Utilities
-numpy==1.24.4
-requests==2.31.0
-aiofiles==23.2.1
-yt-dlp==2023.11.16
+numpy
+requests
+aiofiles
+yt-dlp
